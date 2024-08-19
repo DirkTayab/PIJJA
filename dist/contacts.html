@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET PIJJA - Contacts</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" href="../IMG/logoo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="header py-5 fixed w-full z-50 bg-white shadow-[0_8px_24px_-15px_rgba(149,157,165,0.2)]"
+    >
+      <div class="container">
+        <div class="header__wrapper flex justify-between items-center">
+          <img class="w-[8rem]" src="../IMG/LOGO.png" alt="" />
+          <ul class="header__nav">
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="./contacts.html">CONTACTS</a></li>
+          </ul>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="backdrop"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CTA -->
+    <section class="cta bg-primary text-white py-10 lg:pb-0">
+      <div class="container">
+        <div
+          class="cta__wrapper flex flex-col items-center justify-center text-center lg:flex-row"
+        >
+          <img class="hidden lg:block lg:w-96" src="../IMG/chef.png" alt="" />
+          <div class="cta__details">
+            <h3 class="font-bold">LET'S CONNECT</h3>
+            <p class="mb-5">and get a 100% off bill offers and invites</p>
+            <div class="cta__input bg-white p-3">
+              <input
+                class="px-3 py-2 focus:text-black focus:outline-none"
+                type="email"
+                placeholder="YOUR EMAIL ADDRESS"
+              />
+              <a class="btn bg-secondaryy" href="">SUBSCRIBE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer py-7">
+      <div class="container">
+        <div
+          class="footer__wrapper flex flex-col items-center justify-center text-center lg:gap-10"
+        >
+          <img class="mb-6" src="../IMG/LOGO.png" alt="" />
+          <div
+            class="footer__details flex flex-col gap-5 mb-5 lg:flex-row lg:gap-20"
+          >
+            <ul>
+              <li><h3 class="font-bold">ADDRESS</h3></li>
+              <li>
+                <p>
+                  570 8th Ave, New York, NY <br />
+                  10018 United States
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li><h3 class="font-bold">BOOK A TABLE</h3></li>
+              <li>
+                <p>
+                  Dogfood Och Sliders Foodtruck. <br />
+                  Under Om Oss Kan Ni Lasa
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li><h3 class="font-bold">OPENING HOURS</h3></li>
+              <li>
+                <p>Monday - Friday <br />10:00 AM - 11:00 PM</p>
+              </li>
+            </ul>
+          </div>
+          <h4 class="text-primary">0123456987</h4>
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="./js/toggle__menu.js"></script>
+    <script src="./js/tabs.js"></script>
+  </body>
+</html>
