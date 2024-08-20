@@ -1,5 +1,5 @@
-const tabs = document.querySelectorAll(".offer__img");
-const contents = document.querySelectorAll(".offer__details");
+const tabs = document.querySelectorAll(".menuList__btn");
+const contents = document.querySelectorAll(".menuList__details");
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -21,6 +21,3 @@ function removeActiveContent() {
     content.classList.remove("active");
   });
 }
-
-
-

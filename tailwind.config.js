@@ -6,10 +6,13 @@ module.exports = {
       fontFamily: {
         poppins: "Poppins",
       },
-      colors:{
+      colors: {
         primary: "#B23920",
         secondary: "#F7B754",
         tertiary: "#223c5f",
+      },
+      backgroundImage: {
+        bgMenu: "linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.6)),url('../IMG/menuBanner.jpg')",
       },
     },
   },

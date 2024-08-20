@@ -114,6 +114,57 @@
   .testimonials__card img {
     @apply rounded-full w-[5rem] mx-auto;
   }
+  .menuList__cards {
+    @apply flex flex-col gap-4 justify-center items-center py-10 lg:border-white lg:border rounded-3xl;
+  }
+  .menuList__cards img {
+    @apply w-32;
+  }
+  .menuList__cards--text {
+    @apply justify-center items-center text-center;
+  }
+  .menuList__cards--text h4 {
+    @apply font-semibold;
+  }
+  .menuList__cards ul {
+    @apply flex mb-5 text-secondary justify-center;
+  }
+  .menuList__details--wrap{
+    @apply grid grid-cols-3 gap-3;
+  }
+  .recipe__details h3{
+    @apply font-bold;
+  }
+  .recipe__details{
+    @apply flex flex-col gap-[10rem] lg:flex-row lg:justify-between lg:max-w-[50rem] lg:mx-auto py-5 px-10 bg-secondary/30 ;
+  }
+  .recipe__wrapper img{
+    @apply rounded-3xl object-cover h-[30rem] w-screen lg:h-full lg:w-[60rem] lg:mx-auto mb-5;
+  }
+  .recipe__details ul li{
+    @apply py-2;
+  }
+  .forms__wrapper input{
+    @apply border border-transparent rounded-lg p-3 w-[29rem] my-1 lg:w-[40rem];
+  }
+  .forms__wrapper input:focus{
+    @apply outline-none;
+  }
+  textarea{
+    @apply border border-transparent rounded-lg p-3 w-[29rem] h-[10rem] my-1 lg:w-[40rem];
+  }
+  textarea:focus{
+    @apply outline-none;
+  }
+  .forms__details{
+    @apply flex flex-col;
+  }
+  .forms__details form{
+    @apply flex flex-col;
+  }
+  .forms__name input{
+    @apply w-[14rem] lg:w-[19.5rem];
+  }
 }
 
 @layer utilities {
@@ -127,6 +178,18 @@
     @apply hidden lg:max-w-[40rem] lg:mx-auto;
   }
   .offer__details.active {
+    @apply block;
+  }
+  .menuList__btn {
+    @apply text-tertiary font-bold;
+  }
+  .menuList__btn.active {
+    @apply text-primary;
+  }
+  .menuList__details {
+    @apply hidden lg:max-w-[40rem] lg:mx-auto;
+  }
+  .menuList__details.active {
     @apply block;
   }
 }

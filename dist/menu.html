@@ -10,9 +10,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
   </head>
   <body>
-
     <!-- Header -->
     <header
       class="header py-5 fixed w-full z-50 bg-white shadow-[0_8px_24px_-15px_rgba(149,157,165,0.2)]"
@@ -34,6 +37,527 @@
         </div>
       </div>
     </header>
+    <!-- Attention -->
+    <section
+      class="announce fixed w-full z-40 bg-white pt-28 pb-1 text-center font-semibold text-primary leading-3"
+    >
+      <div class="container">
+        <div class="announce_wrapper">
+          <small
+            ><i class="fa-solid fa-bullhorn"></i> &nbsp; This website provides
+            information about our store. Online transactions are coming
+            soon.</small
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <section class="menuBanner">
+      <div
+        class="menuBanner__wrapper bg-bgMenu bg-cover bg-no-repeat h-screen w-full flex flex-col items-center justify-center"
+      >
+        <h1
+          class="text-white font-semibold max-w-96 lg:max-w-[40rem] lg:text-center"
+        >
+          ALWAYS FRESH & READY TO BE SERVED.
+        </h1>
+      </div>
+    </section>
+    <!-- Menu -->
+    <section class="menuList py-10 bg-tertiary text-white">
+      <div class="container">
+        <div class="menuList__wrapper lg:flex lg:flex-col max-w-[40rem] gap-10 mx-auto">
+          <div
+            class="menuList__tab flex justify-center gap-3 py-5 rounded-3xl border-transparent bg-secondary"
+          >
+            <ul class="flex gap-2 lg:gap-5">
+              <li><a class="menuList__btn cursor-pointer border-r-2 pr-2 lg:pr-5 active" id="tabs-1">PIZZA</a></li>
+              <li><a class="menuList__btn cursor-pointer border-r-2 pr-2 lg:pr-5" id="tabs-2">BURGER</a></li>
+              <li><a class="menuList__btn cursor-pointer border-r-2 pr-2 lg:pr-5" id="tabs-3">CHICKEN</a></li>
+              <li><a class="menuList__btn cursor-pointer border-r-2 pr-2 lg:pr-5" id="tabs-4">DRINKS</a></li>
+              <li><a class="menuList__btn cursor-pointer" id="tabs-5">CAKES</a></li>
+            </ul>
+          </div>
+          <div class="menuList__content">
+            <!-- Pizza -->
+            <div class="menuList__details active" id="tabs-1-content">
+              <div class="menuList__details--wrap">
+                <div class="menuList__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>PROSCIUTTO PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>PROSCIUTTO PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>PROSCIUTTO PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>PROSCIUTTO PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>PROSCIUTTO PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>PROSCIUTTO PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Burger -->
+            <div class="menuList__details" id="tabs-2-content">
+              <div class="menuList__details--wrap">
+                <div class="menuList__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Chicken -->
+            <div class="menuList__details" id="tabs-3-content">
+              <div class="menuList__details--wrap">
+                <div class="menuList__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHICKEN</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHICKEN</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHICKEN</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHICKEN</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHICKEN</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>CHICKEN</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Drinks -->
+            <div class="menuList__details" id="tabs-4-content">
+              <div class="menuList__details--wrap">
+                <div class="menuList__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Cake -->
+            <div class="menuList__details" id="tabs-5-content">
+              <div class="menuList__details--wrap">
+                <div class="menuList__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>MUFFIN CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>MUFFIN CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>MUFFIN CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>MUFFIN CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>MUFFIN CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+                <div class="menuList__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="menuList__cards--text">
+                    <h4>MUFFIN CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a class="btn bg-clrsecond" href="./singlepage.html">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta bg-primary text-white py-10 lg:pb-0">
@@ -97,7 +621,10 @@
       </div>
     </footer>
     <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./js/toggle__menu.js"></script>
-    <script src="./js/tabs.js"></script>
+    <script src="./js/menutabs.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
